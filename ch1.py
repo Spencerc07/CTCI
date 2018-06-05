@@ -250,21 +250,3 @@ solution('3a-arre-e43f', 3)
 solution('er23-234ddsd-34343dgthgtyh-45-bfgbfg5-54646', 5)
 solution('eereqdvkkfbjherfherkfgvZX>Kcjvasfi', 9)
 solution('erwd-12', 10)
-
-
-
-
-x="hello"
-print(x[0].islower())
-
-
-def swap_case(s):
-    a = list(s)
-    for x in range(len(s)):
-        if s[x].islower():
-            a[x] = s[x].upper()
-        elif s[x].isupper():
-            a[x] = s[x].lower()
-    return str(a)
-
-swap_case("heLlO")
